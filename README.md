@@ -1,5 +1,5 @@
 # My-Pass-Maker
-a script for making strong and customized passwords
+A script for making strong and customized passwords
 
 ## Usage
 
@@ -23,3 +23,4 @@ options:
 -d, --digits  Use digits letters
 -p, --pun     Use punctuations letters
 ```
+
