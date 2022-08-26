@@ -18,9 +18,9 @@ length        length of the password
 options:
 ```
 -h, --help    show this help message and exit
--u, --upper   Use uppercase letters
--l, --lower   Use lowercase letters
--d, --digits  Use digits letters
--p, --pun     Use punctuations letters
+-u, --upper   Use uppercase letters in the password
+-l, --lower   Use lowercase letters in the password
+-d, --digits  Use digits in the password
+-p, --pun     Use punctuations in the password
 ```
 
