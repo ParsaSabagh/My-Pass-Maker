@@ -23,10 +23,10 @@ def print_pass():
     parser.add_argument("length", type=int, help="length of the password")
     parser.add_argument("-u", "--upper", help="Use uppercase letters", action="store_true")
     parser.add_argument("-l", "--lower", help="Use lowercase letters", action="store_true")
-    parser.add_argument("-d", "--digits", help="Use digits letters", action="store_true")
-    parser.add_argument("-p", "--pun", help="Use punctuations letters", action="store_true")
+    parser.add_argument("-d", "--digit", help="Use digits letters", action="store_true")
+    parser.add_argument("-p", "--punc", help="Use punctuations letters", action="store_true")
     args = parser.parse_args()
-    print(my_pass_maker(args.length, args.upper, args.lower, args.digits, args.pun))
+    print(my_pass_maker(args.length, args.upper, args.lower, args.digit, args.punc))
 
 
 print_pass()
